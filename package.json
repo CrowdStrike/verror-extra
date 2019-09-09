@@ -1,0 +1,43 @@
+{
+  "name": "verror-extra",
+  "version": "1.0.0",
+  "description": "verror wrapper with extras™",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint:js": "eslint . --ext js,json",
+    "lint:md": "remark -f README.md",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CrowdStrike/verror-extra.git"
+  },
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrowdStrike/verror-extra/issues"
+  },
+  "homepage": "https://github.com/CrowdStrike/verror-extra#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "dependencies": {
+    "verror": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-crowdstrike": "^1.0.0",
+    "eslint-config-crowdstrike-node": "^1.0.0",
+    "eslint-plugin-json-files": "0.7.0",
+    "eslint-plugin-mocha": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "mocha": "^6.2.0",
+    "mocha-helpers": "^4.0.0",
+    "remark-cli": "^7.0.0",
+    "remark-preset-lint-crowdstrike": "^1.0.0"
+  }
+}

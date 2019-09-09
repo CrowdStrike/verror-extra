@@ -1,2 +1,3 @@
 # verror-extra
-verror wrapper with extras™
+
+[verror](https://github.com/joyent/node-verror) wrapper with extras™
