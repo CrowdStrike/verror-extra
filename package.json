@@ -38,6 +38,7 @@
     "mocha": "^6.2.0",
     "mocha-helpers": "^4.0.0",
     "remark-cli": "^7.0.0",
-    "remark-preset-lint-crowdstrike": "^1.0.0"
+    "remark-preset-lint-crowdstrike": "^1.0.0",
+    "renovate-config-standard": "^2.0.0"
   }
 }
