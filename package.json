@@ -7,8 +7,10 @@
     "index.js"
   ],
   "scripts": {
+    "lint:git": "commitlint",
     "lint:js": "eslint . --ext js,json",
     "lint:md": "remark -f README.md",
+    "release": "standard-version && git push --follow-tags && npm publish",
     "test": "mocha --recursive"
   },
   "repository": {
@@ -28,6 +30,7 @@
     "verror": "^1.10.0"
   },
   "devDependencies": {
+    "@crowdstrike/commitlint": "^1.0.2",
     "chai": "^4.2.0",
     "eslint": "^6.1.0",
     "eslint-config-crowdstrike": "^1.0.0",
@@ -39,6 +42,7 @@
     "mocha-helpers": "^4.0.0",
     "remark-cli": "^7.0.0",
     "remark-preset-lint-crowdstrike": "^1.0.0",
-    "renovate-config-standard": "^2.0.0"
+    "renovate-config-standard": "^2.0.0",
+    "standard-version": "^7.0.0"
   }
 }
