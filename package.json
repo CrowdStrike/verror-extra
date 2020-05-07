@@ -35,7 +35,7 @@
     "eslint": "^6.1.0",
     "eslint-config-crowdstrike": "^2.0.0",
     "eslint-config-crowdstrike-node": "^2.0.0",
-    "eslint-plugin-json-files": "0.8.0",
+    "eslint-plugin-json-files": "0.8.1",
     "eslint-plugin-mocha": "^6.0.0",
     "eslint-plugin-node": "^11.0.0",
     "mocha": "^7.0.0",
