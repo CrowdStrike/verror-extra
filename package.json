@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/CrowdStrike/verror-extra#readme",
   "engines": {
-    "node": ">=8.10"
+    "node": ">=10.12"
   },
   "dependencies": {
     "verror": "^1.10.0"
