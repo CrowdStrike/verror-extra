@@ -2164,16 +2164,17 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha-helpers@^4.0.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/mocha-helpers/-/mocha-helpers-4.2.1.tgz#494ac88a1f16854c1daa6f07e7bfa37a1b0ad84d"
-  integrity sha512-ezXtM7NiHuYwk09pGHpsE2iIq4OOZ2KQNPGzPNahU2h9uPOGVhw4RkvWMAqaKS0BPlP+VMDEHXcnkHIis2kEpw==
+mocha-helpers@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/mocha-helpers/-/mocha-helpers-5.1.0.tgz#34ed763ad8bca85bc978893479cdaed0dd4314e0"
+  integrity sha512-0w00iAqfeXV0YkgCH4KTRvcONtU0diagSkrsDdITAmY19oqgMlQnPIGWlo8zMaa0pi7u+0mmSVtscQ04vxYrCQ==
   dependencies:
     callsites "^3.0.0"
     commondir "^1.0.1"
+    mocha "^8.1.3"
     titleize "^2.1.0"
 
-mocha@^8.0.0:
+mocha@^8.0.0, mocha@^8.1.3:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-8.2.0.tgz#f8aa79110b4b5a6580c65d4dd8083c425282624e"
   integrity sha512-lEWEMq2LMfNJMKeuEwb5UELi+OgFDollXaytR5ggQcHpzG3NP/R7rvixAvF+9/lLsTWhWG+4yD2M70GsM06nxw==
