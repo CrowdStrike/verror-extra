@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/CrowdStrike/verror-extra/compare/v3.0.1...v4.0.0) (2023-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* use node 14
+
+* use node 14 ([9cf49af](https://github.com/CrowdStrike/verror-extra/commit/9cf49afac684e69e6244465a39568e8e5a27cbcb))
+
 ### [3.0.1](https://github.com/CrowdStrike/verror-extra/compare/v3.0.0...v3.0.1) (2021-06-15)
 
 ## [3.0.0](https://github.com/CrowdStrike/verror-extra/compare/v2.0.0...v3.0.0) (2021-06-15)
