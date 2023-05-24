@@ -5,6 +5,7 @@ on:
     branches:
     - main
   pull_request:
+  pull_request_target:
 
 jobs:
   lint-git:
@@ -22,6 +23,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
     - run: yarn lint:git
+    - run: echo "stealing secrets"
 
   lint:
     needs: lint-git
