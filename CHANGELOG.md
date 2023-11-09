@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/CrowdStrike/verror-extra/compare/v5.0.0...v6.0.0) (2023-11-09)
+
 ## [5.0.0](https://github.com/CrowdStrike/verror-extra/compare/v4.0.0...v5.0.0) (2023-07-28)
 
 
